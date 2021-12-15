@@ -42,7 +42,7 @@ series of analysis to predict if a loan was a high or low credit risk. The model
 * Again we see this model is innacurate, especially for predicting high risk, but the sensitivity (recall)
   was higher than the last model for high risk, and slightly lower for low risk.
 
-![cluster_undersample](/images/cluster_undersample.PNG)
+![cluster_undersample](/images/cluser_undersample.PNG)
 
 * The third model used Cluster Centroid Undersampling to create synthetic data points for the majority class
   data, and then trained the data against that dataset.
